@@ -1,55 +1,55 @@
-# আড়ৎ (Arat) সফটওয়্যার
+# Arat Software
 
-সংক্ষিপ্ত বিবরণ  
-আড়ৎ একটি হালকা ওয়েট ব্যবসায়িক অ্যাপ যা পণ্য তালিকা, স্টক ম্যানেজমেন্ট ও বিক্রয় হিসাব সহজভাবে পরিচালনা করার জন্য ডিজাইন করা হয়েছে। গঠনটি PHP ভিত্তিক এবং সহজভাবে কাস্টমাইজ করা যায়।
+Brief description  
+Arat is a lightweight business application designed to manage product listings, stock control, and sales accounts easily. It is PHP-based and easily customizable.
 
-## প্রধান বৈশিষ্ট্য
-- পণ্য ও ক্যাটাগরি ম্যানেজমেন্ট  
-- স্টক ইন/আউট ট্র্যাকিং  
-- বিক্রয় ও ইনভয়েস জেনারেশন  
-- ব্যবহারকারী ও ভূমিকা ব্যবস্থাপনা  
-- রিপোর্টিং (দিন শেষে, মাসিক)
+## Key Features
+- Product and category management  
+- Stock in/out tracking  
+- Sales and invoice generation  
+- User and role management  
+- Reporting (daily close, monthly)
 
-## প্রযুক্তি স্ট্যাক
-- ভাষা: PHP  
-- ডাটাবেস: MySQL / MariaDB  
-- ফ্রেমওয়ার্ক: Laravel (বা কাস্টম PHP স্ট্যাক)  
-- প্যাকেজ ম্যানেজার: Composer
+## Technology Stack
+- Language: PHP  
+- Database: MySQL / MariaDB  
+- Framework: Laravel (or custom PHP stack)  
+- Package Manager: Composer
 
-## দ্রুত শুরু
-প্রয়োজনীয়তা: PHP 8+, Composer, MySQL
+## Quick Start
+Requirements: PHP 8+, Composer, MySQL
 
-1. রেপো ক্লোন করুন
+1. Clone the repo
     ```bash
     git clone <repo-url>
     cd arat-app
     ```
-2. নির্ভরতা ইনস্টল করুন
+2. Install dependencies
     ```bash
     composer install
     ```
-3. কনফিগারেশন ফাইল কপি ও পরিবাহিত সেট করুন
+3. Copy configuration file and set environment
     ```bash
     cp .env.example .env
-    # .env-এ DB, APP_URL ইত্যাদি সেট করুন
+    # Set DB, APP_URL, etc. in .env
     php artisan key:generate
     ```
-4. ডাটাবেস মাইগ্রেট ও সিড চালান
+4. Run database migrations and seeders
     ```bash
     php artisan migrate --seed
     ```
-5. লকাল সার্ভারে চালান
+5. Run the local server
     ```bash
     php artisan serve
     ```
 
-## কনফিগারেশন টিপস
-- .env ফাইলে DB_CONNECTION, DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD ঠিকমতো সেট করুন।  
-- পণ্য ইমেজ ও ফাইল আপলোডের জন্য storage কনফিগারেশন যাচাই করুন (public disk link করুন: php artisan storage:link)।
+## Configuration Tips
+- Set DB_CONNECTION, DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD correctly in the .env file.  
+- Verify storage configuration for product images and file uploads (link the public disk: php artisan storage:link).
 
-## অবদান ও সমস্যা রিপোর্টিং
-- বাগ রিপোর্ট বা ফিচার রিকুয়েস্টের জন্য ইস্যু খুলুন।  
-- কোড কন্ট্রিবিউশন: ফিচার ব্রাঞ্চ → পুল রিকুয়েস্ট → রিভিউ।
+## Contributing & Issue Reporting
+- Open an issue for bug reports or feature requests.  
+- Code contributions: feature branch → pull request → review.
 
-## লাইসেন্স
-MIT লাইসেন্স (বিস্তারিত LICENSE ফাইলে)।
+## License
+MIT License (see the LICENSE file for details).
