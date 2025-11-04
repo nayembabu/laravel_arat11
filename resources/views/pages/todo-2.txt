@@ -1,0 +1,27 @@
+bikroy_commission_entry Done 
+
+User er 3 page Done 
+
+Setting  
+    Notun  --> Page Needed 
+    Mohajon list  --> Page Needed 
+    Mohajon hisha --> Page Needed 
+
+Report 
+    Bikroy Repport
+    Kroy report 
+    Lebar khoroch report
+    Cash hishab report
+    Ay byay report 
+    Item report 
+    Suppliers report 
+    Stock report 
+SMS 
+    Customer SMS Done 
+    Amanot SMS Done 
+    Mohajon SMS 
+Transport 
+    Notun transpprt  page needed 
+    Transport list page needed 
+    Transport bistarito Done 
+
