@@ -7,8 +7,7 @@
         <meta name="Company Info" content="https://www.viretadev.com">
         <meta name="Author" content="Vireta Dev">
         <meta name="Description" content="POS Admin Dashboard Template">
-        
-
+        <base href="{{ asset('') }}">
 		<!-- Links Of CSS File -->
 		<link rel="stylesheet" href="assets/css/sidebar-menu.css">
 		<link rel="stylesheet" href="assets/css/simplebar.css">
