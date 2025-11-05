@@ -3,9 +3,6 @@
 @include('partials.sidebar')
 
 
-fsaghdfghasfdfagdhfasghdfashgfdgha
-
-
 
 @include('partials.footer')
 
