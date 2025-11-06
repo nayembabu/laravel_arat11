@@ -1,8 +1,8 @@
-<?php
-    include 'partial/header.php';
-    include 'partial/sidebar.php';
-    include 'partial/topmenu.php';
-?>
+@include('partials.header')
+@include('partials.topmenu')
+@include('partials.sidebar')
+
+
 
 <div class="container mt-4">
     <h3 class="text-center">কাস্টমার তালিকা</h3>
@@ -185,9 +185,9 @@
 </div>
 
 
-<?php
-    include 'partial/footer.php';
-?>
+
+
+@include('partials.footer')
 
 
 

@@ -1,8 +1,8 @@
-<?php
-    include 'partial/header.php';
-    include 'partial/sidebar.php';
-    include 'partial/topmenu.php';
-?>
+@include('partials.header')
+@include('partials.topmenu')
+@include('partials.sidebar')
+
+
 <div class="container mt-4">
     <form id="customerForm" class="row g-3 mb-4">
         <div class="col-md-4">
@@ -23,7 +23,7 @@
     </form>
 </div>
 
-<?php
-    include 'partial/footer.php';
-?>
+
+
+@include('partials.footer')
 

@@ -1,8 +1,8 @@
-<?php
-    include 'partial/header.php';
-    include 'partial/sidebar.php';
-    include 'partial/topmenu.php';
-?>
+@include('partials.header')
+@include('partials.topmenu')
+@include('partials.sidebar')
+
+
 
 <style>
 /* 🌈 Gradient & Animated UI */
@@ -136,9 +136,9 @@
   </div>
 </div>
 
-<?php
-    include 'partial/footer.php';
-?>
+
+
+@include('partials.footer')
 
 <script>
 // ======= Demo dataset (আপনার ব্যাকএন্ড ডেটার বদলে ডেমো) =======

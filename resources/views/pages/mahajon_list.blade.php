@@ -1,12 +1,12 @@
-<?php
-    include 'partial/header.php';
-    include 'partial/sidebar.php';
-    include 'partial/topmenu.php';
-?>
+@include('partials.header')
+@include('partials.topmenu')
+@include('partials.sidebar')
+
+
 
 <h1> এখানে মহাজন লিস্ট হবে </h1>
              
 
-<?php
-    include 'partial/footer.php';
-?>
+
+
+@include('partials.footer')

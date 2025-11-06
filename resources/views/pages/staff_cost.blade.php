@@ -1,8 +1,8 @@
-<?php
-    include 'partial/header.php';
-    include 'partial/sidebar.php';
-    include 'partial/topmenu.php';
-?>
+@include('partials.header')
+@include('partials.topmenu')
+@include('partials.sidebar')
+
+
 
 <div class="container mt-4">
     <h2>Create Staff Cost</h2>
@@ -36,9 +36,9 @@
     </form>
 </div>
 
-<?php
-    include 'partial/footer.php';
-?>
+
+
+@include('partials.footer')
 
 <script>
 $(document).ready(function(){

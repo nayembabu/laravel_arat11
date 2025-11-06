@@ -1,8 +1,6 @@
-<?php
-    include 'partial/header.php';
-    include 'partial/sidebar.php';
-    include 'partial/topmenu.php';
-?>
+@include('partials.header')
+@include('partials.topmenu')
+@include('partials.sidebar')
 
 <style>
 /* 🌈 Gradient + Animated + Colorful */
@@ -79,9 +77,7 @@
     </div>
 </div>
 
-<?php
-    include 'partial/footer.php';
-?>
+
 
 <script>
 $(document).ready(function() {
@@ -228,3 +224,7 @@ $(document).ready(function() {
 
 });
 </script>
+
+
+
+@include('partials.footer')

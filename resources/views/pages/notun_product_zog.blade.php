@@ -1,8 +1,8 @@
-<?php
-    include 'partial/header.php';
-    include 'partial/sidebar.php';
-    include 'partial/topmenu.php';
-?>
+@include('partials.header')
+@include('partials.topmenu')
+@include('partials.sidebar')
+
+
 <div class="container mt-5">
     <form action="" method="post" class="mx-auto" style="max-width: 400px;">
         <div class="mb-3">
@@ -31,6 +31,6 @@
 
              
 
-<?php
-    include 'partial/footer.php';
-?>
+
+
+@include('partials.footer')

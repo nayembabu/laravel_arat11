@@ -1,8 +1,7 @@
-<?php
-    include 'partial/header.php';
-    include 'partial/sidebar.php';
-    include 'partial/topmenu.php';
-?>
+@include('partials.header')
+@include('partials.topmenu')
+@include('partials.sidebar')
+
 
 <style>
 /* Gradient Background for whole page */
@@ -176,9 +175,7 @@ body {
   </div>
 </div>
 
-<?php
-    include 'partial/footer.php';
-?>
+
 <script>
 let persons = [
     {
@@ -275,3 +272,6 @@ document.getElementById('depositForm').addEventListener('submit', function(e) {
     document.getElementById('depositForm').reset();
 });
 </script>
+
+
+@include('partials.footer')

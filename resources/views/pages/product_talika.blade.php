@@ -1,8 +1,8 @@
-<?php
-    include 'partial/header.php';
-    include 'partial/sidebar.php';
-    include 'partial/topmenu.php';
-?>
+@include('partials.header')
+@include('partials.topmenu')
+@include('partials.sidebar')
+
+
 
 <!-- Toastr CSS -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
@@ -178,6 +178,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<?php
-    include 'partial/footer.php';
-?>
+
+
+@include('partials.footer')

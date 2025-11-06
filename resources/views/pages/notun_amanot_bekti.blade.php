@@ -1,8 +1,8 @@
-<?php
-    include 'partial/header.php';
-    include 'partial/sidebar.php';
-    include 'partial/topmenu.php';
-?>
+@include('partials.header')
+@include('partials.topmenu')
+@include('partials.sidebar')
+
+
 <center><h1>Add User Information</h1></center>
 <div style="max-width: 500px; margin: 40px auto; background: linear-gradient(135deg, #f6d365 0%, #612f4aff 100%); border-radius: 18px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); padding: 32px;">
     <h2 style="text-align:center; color:#fff; margin-bottom:24px; letter-spacing:1px;">নতুন আমানতের ব্যক্তি যোগ</h2>
@@ -28,6 +28,6 @@
         </button>
     </form>
 </div>
-<?php
-    include 'partial/footer.php';
-?>
+
+
+@include('partials.footer')

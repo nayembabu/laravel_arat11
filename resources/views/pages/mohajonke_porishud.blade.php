@@ -1,8 +1,8 @@
-<?php
-    include 'partial/header.php';
-    include 'partial/sidebar.php';
-    include 'partial/topmenu.php';
-?>
+@include('partials.header')
+@include('partials.topmenu')
+@include('partials.sidebar')
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -107,6 +107,6 @@
 
 
 
-<?php
-    include 'partial/footer.php';
-?>
+
+
+@include('partials.footer')

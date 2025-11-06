@@ -1,8 +1,8 @@
-<?php
-    include 'partial/header.php';
-    include 'partial/sidebar.php';
-    include 'partial/topmenu.php';
-?>
+@include('partials.header')
+@include('partials.topmenu')
+@include('partials.sidebar')
+
+
 
 <style>
   /* 🌈 Gradient + Animated + Colorful + Mobile Friendly */
@@ -193,9 +193,9 @@
   </div>
 </div>
 
-<?php
-    include 'partial/footer.php';
-?>
+
+
+@include('partials.footer')
 
 <script>
 // ======== Demo Data (সার্ভার হলে AJAX দিয়ে আনবে) ========
