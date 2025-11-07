@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 e7a2f5f75b36c30ac6324e73a85f64ca8120c009 githubramim <tfarukramim@gmail.com> 1762105670 +0600	branch: Created from origin/main
+e7a2f5f75b36c30ac6324e73a85f64ca8120c009 129acb8e751a818259c7f82fefcdac2a1f770323 githubramim <tfarukramim@gmail.com> 1762105756 +0600	commit: Initial work done by ramim
+129acb8e751a818259c7f82fefcdac2a1f770323 172956ad8b8d6f4e88b9cd0ac7363d8c453d2572 githubramim <tfarukramim@gmail.com> 1762106294 +0600	commit: Partials 4 file added
+172956ad8b8d6f4e88b9cd0ac7363d8c453d2572 cd78d680dc88efe3c053dd7f67e64ac917422122 githubramim <tfarukramim@gmail.com> 1762237009 +0600	commit: Fixed server error and updated database
+cd78d680dc88efe3c053dd7f67e64ac917422122 98323a161361b8e21eda18d097c0d0c6199210cf githubramim <tfarukramim@gmail.com> 1762246517 +0600	commit: Assets connected
+98323a161361b8e21eda18d097c0d0c6199210cf 253c25d9f05771de34451050d772de72d202a2fb githubramim <tfarukramim@gmail.com> 1762247871 +0600	commit: file added to view folder
+253c25d9f05771de34451050d772de72d202a2fb 5394671c4d0547bbfd848717daa56447a8e0a86d githubramim <tfarukramim@gmail.com> 1762367019 +0600	commit: file added as .blade
+5394671c4d0547bbfd848717daa56447a8e0a86d 361be0d4931131c933afcce40e6bf998b281a2e7 githubramim <tfarukramim@gmail.com> 1762447445 +0600	commit: header and footer added

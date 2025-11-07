@@ -1,8 +1,8 @@
-<?php
-include 'partial/header.php';
-include 'partial/sidebar.php';
-include 'partial/topmenu.php';
-?>
+@include('partials.header')
+@include('partials.topmenu')
+@include('partials.sidebar')
+
+
 <!-- Colorful, Gradient, Animated Sales Entry UI -->
 
 
@@ -97,8 +97,6 @@ include 'partial/topmenu.php';
         <!-- Step 2: Dynamic Buttons -->
         <div id="actionButtons" class="text-center d-none">
             <button class="btn btn-gradient action-btn">Show Product</button>
-            <button class="btn btn-gradient action-btn">Discount</button>
-            <button class="btn btn-gradient action-btn">Offer</button>
         </div>
 
         <!-- Step 3: Product Cards -->
@@ -110,18 +108,6 @@ include 'partial/topmenu.php';
                 </div>
             </div>
             <br>
-            <div class="col-md-4">
-                <div class="card-glass product-card text-center p-4">
-                    <h5>📦 Product 2</h5>
-                    <p>Click for details</p>
-                </div>
-            </div> <br>
-            <div class="col-md-4">
-                <div class="card-glass product-card text-center p-4">
-                    <h5>📦 Product 3</h5>
-                    <p>Click for details</p>
-                </div>
-            </div>
         </div>
         <br><br>
 
@@ -264,6 +250,6 @@ include 'partial/topmenu.php';
         });
     </script>
 
-    <?php
-    include 'partial/footer.php';
-    ?>
+
+
+@include('partials.footer')
