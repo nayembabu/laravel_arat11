@@ -1,0 +1,43 @@
+http://localhost/arat/notun_bikroy2.php 
+http://localhost/arat/rastaybikroy.php 
+vaiya korbe
+
+বিক্রয় কমিশন এন্ট্রি তে কি কি থাকবে
+
+রাস্তায় বিক্রয় 
+বিক্রয় কৈফিয়ত 
+
+
+
+
+
+
+
+
+
+
+
+Staff add --> NID                         
+DOB
+Staff Salary
+
+Staff cost --->
+Select staff
+AMount
+Purpose
+Date
+Time
+
+Staff hishab -->
+Select staff
+Date to date
+Monthly salary
+AMount received details (Staff)
+Pabe kina
+
+Bikroy Koifiyot-->
+
+কাস্টমার হিসাবের মতোই টেবিল 
+
+
+Card 
