@@ -5,8 +5,7 @@
 
 
 
-             
-<h1>Index</h1>
+
 
 
 @include('partials.footer')

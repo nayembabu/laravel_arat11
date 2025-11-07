@@ -9,7 +9,7 @@ Route::get('/home', function () {
     return view('home');
 });
 Route::get('/notun_bikroy', function () {
-    return view('/pages/notun_bikroy2');
+    return view('pages.notun_bikroy2');
 });
 // Sidebar routes (generated from resources/views/partials/sidebar.blade.php)
 $sidebarRoutes = [
@@ -78,8 +78,10 @@ $sidebarRoutes = [
 ];
 
 foreach ($sidebarRoutes as $r) {
+    
     Route::get($r, function () use ($r) {
-        return view("pages/$r");
+        $view = 'pages.' . ltrim($r, '/');
+        return view($view);
     });
 }
 

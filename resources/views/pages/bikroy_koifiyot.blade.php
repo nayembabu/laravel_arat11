@@ -20,7 +20,7 @@
         width: 100%;
     }
 }
-/* Select2 dropdown height fix */
+/* Select2 dropdown height fix */ 
 .select2-container .select2-selection--single {
     height: calc(2.5rem + 2px); /* Bootstrap form-select height */
     padding: 0.375rem 0.75rem;
