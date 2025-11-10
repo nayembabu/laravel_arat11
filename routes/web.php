@@ -11,6 +11,9 @@ Route::get('/home', function () {
 Route::get('/notun_bikroy', function () {
     return view('pages.notun_bikroy2');
 });
+Route::get('/login', function () {
+    return view('pages.login');
+});
 // Sidebar routes (generated from resources/views/partials/sidebar.blade.php)
 $sidebarRoutes = [
     '/dashboard',

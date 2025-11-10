@@ -40,7 +40,7 @@
                             <input type="text" class="form-control" name="total_bosta[]" placeholder="মোট বস্তা">
                         </div>
                         <div class="col-6">
-                            <input type="number" step="any" class="form-control" name="Weight[]" placeholder=" ওজন: ">
+                            <input type="number" step="any" class="form-control" name="weight[]" placeholder=" ওজন: ">
                         </div>
                         <div class="col-6">
                             <input type="text" class="form-control" name="amount[]" placeholder="দাম">
