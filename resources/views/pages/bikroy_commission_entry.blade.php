@@ -91,9 +91,6 @@
     <div class="p-3 rounded-pill shadow-lg" 
          style="background: linear-gradient(90deg,#ff6a88,#ff99ac,#f6d365);">
       <button class="btn btn-light fw-bold mx-2 action-btn">বিস্তারিত</button>
-      <button class="btn btn-light fw-bold mx-2 action-btn">ছবি</button>
-      <button class="btn btn-light fw-bold mx-2 action-btn">রিভিউ</button>
-      <button class="btn btn-light fw-bold mx-2 action-btn">অতিরিক্ত</button>
     </div>
   </div>
 
