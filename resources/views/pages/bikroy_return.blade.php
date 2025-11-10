@@ -101,9 +101,9 @@ $(document).ready(function() {
     ];
 
     const inputs = [
-        { label: 'Input 1', name: 'রিটার্ন পরিমান' },
-        { label: 'Input 2', name: 'মোট ওজন' },
-        { label: 'Input 3', name: 'অন্যান্য' }
+        { label: 'রিটার্ন পরিমান', name: 'রিটার্ন পরিমান' },
+        { label: 'মোট ওজন', name: 'মোট ওজন' },
+        { label: 'অন্যান্য খরচ', name: 'অন্যান্য খরচ' }
     ];
 
     // Generate buttons
@@ -152,7 +152,7 @@ $(document).ready(function() {
                 </div>
             `;
         });
-        inputHtml += `<button type="submit" class="btn btn-success mt-2">Submit</button></form>`;
+        inputHtml += `<button type="submit" class="btn btn-success mt-2">রিটার্ন করুন</button></form>`;
         $('#inputArea').html(inputHtml);
     });
 });

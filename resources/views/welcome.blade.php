@@ -1,10 +1,5 @@
-@include('partials.header')
-@include('partials.topmenu')
-@include('partials.sidebar')
 
 
-<h1>Hello Brother this is welcome Page.</h1>
+<center><h1>Hello Brother this is welcome Page.</h1> <a href="login">Login</a></center>
 
 
-
-@include('partials.footer')

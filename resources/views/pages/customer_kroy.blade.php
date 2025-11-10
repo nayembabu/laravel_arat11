@@ -27,13 +27,13 @@
             <div class="col-md-5">
                 <label for="supplier" class="form-label">আমদানিকারকের নাম <span class="text-danger">*</span></label>
                 <div class="input-group">
-                    <select id="supplier" name="supplier" class="form-select" style="width: 100%;" required>
+                    <select id="supplier" name="supplier" class="form-select select2" style="width: 100%;" required>
                         <option value="">Select</option>
                         <option value="1">Supplier A</option>
                         <option value="2">Supplier B</option>
                     </select>
                     <button type="button" class="btn btn-outline-success" id="addSupplierBtn" title="Add Supplier">
-                        <i class="bi bi-plus-lg"></i>
+                        <i class="fa fa-plus-circle"></i>
                     </button>
                 </div>
             </div>
@@ -54,9 +54,7 @@
             <div class="col-md-6">
                 <label for="product_select" class="form-label">পণ্য সিলেক্ট করুন</label>
                 <div class="input-group">
-                    <span class="input-group-text"><i class="bi bi-upc-scan"></i></span>
-                    <select id="product_select" class="form-select" style="width: 100%;">
-                        <option value="">Select Product</option>
+                    <select id="product_select" class="form-select select2" style="width: 100%;">
                         <option value="101">Product 1</option>
                         <option value="102">Product 2</option>
                     </select>

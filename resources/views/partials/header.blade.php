@@ -27,6 +27,7 @@
         <link rel="stylesheet" href="assets/css/fontawesome.all.min.css">
         <link rel="stylesheet" href="assets/css/jquery.dataTables.min.css">
         <link rel="stylesheet" href="assets/css/toastr.min.css">
+        <link rel="stylesheet" href="assets/css/custom.css">
 
         <script src="assets/js/jquery.js"></script>
 		
@@ -37,7 +38,7 @@
     </head>
     <body class="boxed-size">
         <!-- Start Preloader Area -->
-        <div class="preloader" id="preloader">
+        <!-- <div class="preloader" id="preloader">
             <div class="preloader">
                 <div class="waviy position-relative">
                     <span class="d-inline-block">T</span>
@@ -47,5 +48,5 @@
                     <span class="d-inline-block">O</span>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- End Preloader Area -->
