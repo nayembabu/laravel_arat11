@@ -14,6 +14,11 @@ return new class extends Migration
         Schema::create('ins_saas_status', function (Blueprint $table) {
             $table->id();
             $table->string('enroll_dates')->nullable();
+            $table->string('expire_dates')->nullable();
+            $table->string('remarks')->nullable();
+            $table->string('ins_id_auto')->nullable();
+            $table->string('this_dates')->nullable();
+            $table->string('this_times')->nullable();
             $table->timestamps();
         });
     }
