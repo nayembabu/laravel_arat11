@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('ins_saas_status', function (Blueprint $table) {
             $table->id();
-            $table->string('phone')->nullable();
+            $table->string('enroll_dates')->nullable();
             $table->timestamps();
         });
     }
