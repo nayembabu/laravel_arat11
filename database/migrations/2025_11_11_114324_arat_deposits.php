@@ -27,13 +27,9 @@ return new class extends Migration
             $table->string('voucher_no')->nullable();
             $table->unsignedBigInteger('received_by')->nullable(); 
             $table->unsignedBigInteger('deposited_by')->nullable(); 
-
             $table->enum('status', ['pending','approved','rejected'])->default('pending');
-
             $table->string('attachment')->nullable(); 
-
             $table->text('note')->nullable();
-
             $table->timestamps();
 
 });
